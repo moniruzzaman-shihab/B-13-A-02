@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+  --linear: linear-gradient(
+    47.64deg,
+    rgba(247, 233, 63, 1),
+    rgba(251, 9, 180, 1),
+    rgba(145, 0, 248, 1)
+  );
+}
+body{
+    background-color: rgba(26, 11, 46, 1);
+    color: white;
+}
+.tech-wave p{
+    font-size: 32px;
+    font-weight: 600;
+}
+.wave-color {
+  background: var(--linear);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.primary-btn{
+    background: var(--linear);
+}
+.subs-btn{
+    color: white;
+    font-size: 14px;
+    border-radius: 1000px;
+    padding: 10px 12px;
+    border: none;
+}
+ul{
+    display: flex;
+    text-decoration: none;
+    gap: 32px;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+.nav-div{
+    
+    border-bottom: 1px solid rgba(65, 37, 103, 1);
+    padding: 20px 0;
+}
+nav{
+   
+    max-width: 1120px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    
+    
+}
+.three-dot{
+    
+    display: none;
+}
+@media screen and (max-width: 576px){
+ nav{
+    grid-template-columns: auto 1fr auto;
+ }
+ .three-dot{
+    display: block;
+    justify-self: end;
+ }
+ .list, .btn{
+    display: none;
+ }
+ .nav-div{
+    padding: 20px;
+ }
+}
