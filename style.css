@@ -367,7 +367,7 @@ line-height: 24px;
  .first-txt{
     line-height: 15px;
     margin-top: 4px;
-    font-size: 10x;
+    font-size: 10px;
     text-align: center;
  }
  .back-img{
@@ -611,10 +611,8 @@ line-height: 15px;
   color: transparent;
   
 }
-.first-heading p{
-    font-size: 10px;
-}
-.first-para{
+
+.first-para, .second-para{
     font-size: 10px;
 }
 .small-watch p{
