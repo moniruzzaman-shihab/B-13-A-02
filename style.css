@@ -611,6 +611,15 @@ line-height: 15px;
   color: transparent;
   
 }
+.first-heading p{
+    font-size: 10px;
+}
+.first-para{
+    font-size: 10px;
+}
+.small-watch p{
+    font-size: 10px;
+}
 
 
 }
